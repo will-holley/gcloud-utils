@@ -4,7 +4,7 @@
 # Requires setting env variables $PROJECT, $ZONE, and $DOMAIN
 # Always sets `Blank`, not `@`.
 
-echo "Setting up GSuite Gmail for Cloud DNS"
+echo "Setting up GSuite Gmail MX records for Cloud DNS"
 
 if [ -z "$PROJECT" ]
 then
